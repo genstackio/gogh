@@ -16,8 +16,8 @@ type CaptureContext struct {
 }
 
 type CaptureContextTuple struct {
-	string
-	interface{}
+	Key   string
+	Value interface{}
 }
 
 type Options struct {
