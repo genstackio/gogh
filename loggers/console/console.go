@@ -9,7 +9,7 @@ type Logger struct {
 }
 
 //goland:noinspection GoUnusedParameter
-func (l *Logger) Log(level string, args ...any) {
+func (l *Logger) Log(level string, args ...interface{}) {
 	a := []interface{}{
 		"[" + level + "]",
 	}
