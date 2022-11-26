@@ -3,9 +3,9 @@ package gogh
 import (
 	"context"
 	runtime "github.com/aws/aws-lambda-go/lambda"
+	"github.com/genstackio/gogh/common"
+	"github.com/genstackio/gogh/services"
 	"github.com/go-chi/chi/v5"
-	"github.com/ohoareau/gogh/common"
-	"github.com/ohoareau/gogh/services"
 	"net/http"
 )
 

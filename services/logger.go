@@ -2,9 +2,9 @@ package services
 
 import (
 	"errors"
-	"github.com/ohoareau/gogh/common"
-	"github.com/ohoareau/gogh/loggers/console"
-	"github.com/ohoareau/gogh/loggers/none"
+	"github.com/genstackio/gogh/common"
+	"github.com/genstackio/gogh/loggers/console"
+	"github.com/genstackio/gogh/loggers/none"
 	"os"
 )
 

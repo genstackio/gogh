@@ -1,4 +1,4 @@
-module github.com/ohoareau/gogh
+module github.com/genstackio/gogh
 
 require (
 	github.com/aws/aws-lambda-go v1.26.0

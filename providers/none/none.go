@@ -2,7 +2,7 @@ package none
 
 import (
 	"context"
-	"github.com/ohoareau/gogh/common"
+	"github.com/genstackio/gogh/common"
 )
 
 type Provider struct {

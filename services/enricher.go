@@ -1,6 +1,6 @@
 package services
 
-import "github.com/ohoareau/gogh/common"
+import "github.com/genstackio/gogh/common"
 
 var enrichers = map[string]func() common.Enricher{}
 

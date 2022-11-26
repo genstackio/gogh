@@ -1,6 +1,6 @@
 package none
 
-import "github.com/ohoareau/gogh/common"
+import "github.com/genstackio/gogh/common"
 
 type Logger struct {
 }

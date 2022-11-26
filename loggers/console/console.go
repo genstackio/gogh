@@ -2,7 +2,7 @@ package console
 
 import (
 	"fmt"
-	"github.com/ohoareau/gogh/common"
+	"github.com/genstackio/gogh/common"
 )
 
 type Logger struct {

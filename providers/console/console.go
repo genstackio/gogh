@@ -3,7 +3,7 @@ package console
 import (
 	"context"
 	"fmt"
-	"github.com/ohoareau/gogh/common"
+	"github.com/genstackio/gogh/common"
 )
 
 type Provider struct {
