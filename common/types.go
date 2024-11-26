@@ -38,6 +38,7 @@ type Provider interface {
 	CaptureEvent(event interface{}, ctx CaptureContext)
 	CaptureTag(tag string, value interface{}, ctx CaptureContext)
 	CaptureTags(tags map[string]interface{}, ctx CaptureContext)
+	Clean()
 	Error(err error, ctx CaptureContext)
 	Wrap(HandlerFn) HandlerFn
 }

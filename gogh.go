@@ -174,3 +174,8 @@ func RegisterLogger(name string, factory func() common.Logger) error {
 func RegisterEnricher(name string, factory func() common.Enricher) error {
 	return services.RegisterEnricher(name, factory)
 }
+
+//goland:noinspection GoUnusedExportedFunction
+func Clean() {
+	(*GetProvider()).Clean()
+}

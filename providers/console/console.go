@@ -59,6 +59,10 @@ func (p *Provider) Error(err error, ctx common.CaptureContext) {
 }
 
 //goland:noinspection GoUnusedParameter
+func (p *Provider) Clean() {
+}
+
+//goland:noinspection GoUnusedParameter
 func (p *Provider) Wrap(h common.HandlerFn) common.HandlerFn {
 	return func(ctx context.Context, payload []byte) ([]byte, error) {
 		return h(ctx, payload)
